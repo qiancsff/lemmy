@@ -93,7 +93,7 @@ COPY --from=build-arm64 --chmod=0755 /home/lemmy/lemmy_server /usr/local/bin
 FROM runner-${TARGETOS}-${TARGETARCH}
 
 LABEL org.opencontainers.image.authors="The Lemmy Authors"
-LABEL org.opencontainers.image.source="https://github.com/LemmyNet/lemmy"
+LABEL org.opencontainers.image.source="https://github.com/qiancsff/lemmy"
 LABEL org.opencontainers.image.licenses="AGPL-3.0-or-later"
 LABEL org.opencontainers.image.description="A link aggregator and forum for the fediverse"
 
